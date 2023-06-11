@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+
+    <div class="div-titulo">
+        <h1>CRUD + LOCALSTORAGE</h1>
+    </div>
+    <div class="contenedor">
+        <div class="div-contenedor">
+            <h2>formulario</h2>
+            <form action="#" id="formulario">
+                <input type="text" id="nombre" placeholder="Ingresa marca y modelo">
+                <input type="text" id="descripción" placeholder="Ingresa descripción">
+                <button type="submit" id="btnAgregar">Agregar</button>
+            </form>
+        </div>
+        <div class="div-listado">
+            <h2>Listado Equipos</h2>
+            <div class="div-equipos"></div>
+        </div>
+    </div>
+
+
+    <script src="./crud.js"></script>
+</body>
+</html>

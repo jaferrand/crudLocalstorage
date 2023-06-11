@@ -1,0 +1,91 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .div-titulo {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .div-titulo h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .div-contenedor {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .div-contenedor h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #formulario input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #formulario button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .div-listado {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .div-listado h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .div-equipos {
+    margin-top: 10px;
+  }
+  
+  .div-equipos .equipo {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .div-equipos .equipo:last-child {
+    margin-bottom: 0;
+  }
+  
+  .div-equipos .equipo .nombre {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .div-equipos .equipo .descripcion {
+    color: #666;
+  }
